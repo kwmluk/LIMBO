@@ -6,11 +6,34 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		38519D151673C234006FE71C /* MotorDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MotorDriver.cpp; sourceTree = "<group>"; };
+		38519D161673C234006FE71C /* MotorDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotorDriver.h; sourceTree = "<group>"; };
+		38519D171673C234006FE71C /* PinConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinConfig.h; sourceTree = "<group>"; };
+		38519D181673C234006FE71C /* PololuDriverCarrier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PololuDriverCarrier.cpp; sourceTree = "<group>"; };
+		38519D191673C234006FE71C /* PololuDriverCarrier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PololuDriverCarrier.h; sourceTree = "<group>"; };
+		38519D1E1673C2A4006FE71C /* LIMBO_Main.ino */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; name = LIMBO_Main.ino; path = LIMBO_Main/LIMBO_Main.ino; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		38519D0C1673C20B006FE71C = {
 			isa = PBXGroup;
 			children = (
+				38519D1E1673C2A4006FE71C /* LIMBO_Main.ino */,
+				38519D1A1673C241006FE71C /* Dual Driver Carrier */,
 			);
+			sourceTree = "<group>";
+		};
+		38519D1A1673C241006FE71C /* Dual Driver Carrier */ = {
+			isa = PBXGroup;
+			children = (
+				38519D151673C234006FE71C /* MotorDriver.cpp */,
+				38519D161673C234006FE71C /* MotorDriver.h */,
+				38519D171673C234006FE71C /* PinConfig.h */,
+				38519D181673C234006FE71C /* PololuDriverCarrier.cpp */,
+				38519D191673C234006FE71C /* PololuDriverCarrier.h */,
+			);
+			name = "Dual Driver Carrier";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
