@@ -12,9 +12,15 @@
 #define _M2IN1  6
 #define _M2IN2  5
 
-//6DOF IMU Pins - Don't actually need to declare
+//6DOF IMU Pins - Unchangeable
 /*
  #define _imuSDA A4
  #define _imuSCL A5
+*/
+
+//Encoder Pins - Unchangeable
+/*
+#define _E1OUTA 3
+#define _E1OUTB 2
 */
 #endif

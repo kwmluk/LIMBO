@@ -13,6 +13,8 @@
 		38519D181673C234006FE71C /* PololuDriverCarrier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PololuDriverCarrier.cpp; sourceTree = "<group>"; };
 		38519D191673C234006FE71C /* PololuDriverCarrier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PololuDriverCarrier.h; sourceTree = "<group>"; };
 		38519D1E1673C2A4006FE71C /* LIMBO_Main.ino */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; name = LIMBO_Main.ino; path = LIMBO_Main/LIMBO_Main.ino; sourceTree = "<group>"; };
+		38519D201675159B006FE71C /* EncoderDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncoderDriver.h; sourceTree = "<group>"; };
+		38519D211675175E006FE71C /* EncoderDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EncoderDriver.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -20,6 +22,8 @@
 			isa = PBXGroup;
 			children = (
 				38519D1E1673C2A4006FE71C /* LIMBO_Main.ino */,
+				38519D171673C234006FE71C /* PinConfig.h */,
+				38519D2216751A14006FE71C /* Encoder Driver */,
 				38519D1A1673C241006FE71C /* Dual Driver Carrier */,
 			);
 			sourceTree = "<group>";
@@ -29,11 +33,19 @@
 			children = (
 				38519D151673C234006FE71C /* MotorDriver.cpp */,
 				38519D161673C234006FE71C /* MotorDriver.h */,
-				38519D171673C234006FE71C /* PinConfig.h */,
 				38519D181673C234006FE71C /* PololuDriverCarrier.cpp */,
 				38519D191673C234006FE71C /* PololuDriverCarrier.h */,
 			);
 			name = "Dual Driver Carrier";
+			sourceTree = "<group>";
+		};
+		38519D2216751A14006FE71C /* Encoder Driver */ = {
+			isa = PBXGroup;
+			children = (
+				38519D201675159B006FE71C /* EncoderDriver.h */,
+				38519D211675175E006FE71C /* EncoderDriver.cpp */,
+			);
+			name = "Encoder Driver";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
